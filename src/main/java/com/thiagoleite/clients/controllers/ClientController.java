@@ -45,12 +45,7 @@ public class ClientController {
                 }).orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Cliente não encontrado."));
     }
 
-//    public void updateClient(Long id, Client client) {
-//        clientService.findById(id)
-//                .map(clientBase -> {
-//
-//                })
-//    }
+// Criar um update client
 
 
 }
